@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f95619e-4894-4ff7-8aa7-29069728bcef" name="Default Changelist" comment="" />
+    <list default="true" id="0f95619e-4894-4ff7-8aa7-29069728bcef" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -226,6 +228,10 @@
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
     <state x="715" y="478" key="NewPhpFileDialog/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604833768467" />
+    <state x="496" y="288" key="Vcs.Push.Dialog.v2" timestamp="1604839466715">
+      <screen x="0" y="23" width="1792" height="1049" />
+    </state>
+    <state x="496" y="288" key="Vcs.Push.Dialog.v2/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604839466715" />
     <state x="561" y="254" width="670" height="675" key="run.anything.popup" timestamp="1604838825168">
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
