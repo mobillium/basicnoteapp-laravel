@@ -1,15 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f95619e-4894-4ff7-8aa7-29069728bcef" name="Default Changelist" comment="" />
+    <list default="true" id="0f95619e-4894-4ff7-8aa7-29069728bcef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/BaseApiRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/LoginRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/RegisterRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/en/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/en/error.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/en/success.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -143,6 +159,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1k0GRlF0s5EB3yCsYlaz4qvUx0F" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -163,6 +182,13 @@
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="artisan make:provider ResponseMacroServiceProvider" />
+      <command value="artisan make:controller AuthController" />
+      <command value="artisan make:request RegisterRequest" />
+      <command value="artisan make:request LoginRequest" />
+      <command value="artisan make:request BaseApiRequest" />
+      <command value="php artisan ide-helper:generate" />
+      <command value="valet links" />
+      <command value="artisan migrate" />
     </option>
   </component>
   <component name="RunManager">
@@ -179,7 +205,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604830089646</updated>
-      <workItem from="1604830090681" duration="1277000" />
+      <workItem from="1604830090681" duration="2825000" />
+      <workItem from="1604833713184" duration="1432000" />
     </task>
     <servers />
   </component>
@@ -187,29 +214,33 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="634" y="310" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1604831573730">
+    <state x="634" y="310" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1604833596582">
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
-    <state x="634" y="310" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604831573730" />
-    <state width="1750" height="287" key="GridCell.Tab.0.bottom" timestamp="1604831736528">
+    <state x="634" y="310" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604833596582" />
+    <state width="1750" height="287" key="GridCell.Tab.0.bottom" timestamp="1604835401833">
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
-    <state width="1750" height="287" key="GridCell.Tab.0.bottom/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604831736528" />
-    <state width="1750" height="287" key="GridCell.Tab.0.center" timestamp="1604831736527">
+    <state width="1750" height="287" key="GridCell.Tab.0.bottom/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604835401833" />
+    <state width="1750" height="287" key="GridCell.Tab.0.center" timestamp="1604835401833">
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
-    <state width="1750" height="287" key="GridCell.Tab.0.center/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604831736527" />
-    <state width="1750" height="287" key="GridCell.Tab.0.left" timestamp="1604831736527">
+    <state width="1750" height="287" key="GridCell.Tab.0.center/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604835401833" />
+    <state width="1750" height="287" key="GridCell.Tab.0.left" timestamp="1604835401832">
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
-    <state width="1750" height="287" key="GridCell.Tab.0.left/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604831736527" />
-    <state width="1750" height="287" key="GridCell.Tab.0.right" timestamp="1604831736527">
+    <state width="1750" height="287" key="GridCell.Tab.0.left/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604835401832" />
+    <state width="1750" height="287" key="GridCell.Tab.0.right" timestamp="1604835401833">
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
-    <state width="1750" height="287" key="GridCell.Tab.0.right/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604831736527" />
-    <state x="561" y="254" width="670" height="675" key="run.anything.popup" timestamp="1604831551116">
+    <state width="1750" height="287" key="GridCell.Tab.0.right/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604835401833" />
+    <state x="715" y="478" key="NewPhpFileDialog" timestamp="1604833768467">
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
-    <state x="561" y="254" width="670" height="675" key="run.anything.popup/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604831551116" />
+    <state x="715" y="478" key="NewPhpFileDialog/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604833768467" />
+    <state x="561" y="254" width="670" height="675" key="run.anything.popup" timestamp="1604835357311">
+      <screen x="0" y="23" width="1792" height="1049" />
+    </state>
+    <state x="561" y="254" width="670" height="675" key="run.anything.popup/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604835357311" />
   </component>
 </project>
