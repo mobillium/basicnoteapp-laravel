@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f95619e-4894-4ff7-8aa7-29069728bcef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/NoteController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/CreateNoteRequest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/error.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/error.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,6 +185,9 @@
       <command value="artisan make:model Note -m" />
       <command value="artisan migrate" />
       <command value="artisan migrate:fresh" />
+      <command value="artisan make:controller NoteController" />
+      <command value="artisan make:request CreateNoteRequest" />
+      <command value="artisan make:controller UserController" />
     </option>
   </component>
   <component name="RunManager">
@@ -209,26 +217,26 @@
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
     <state x="634" y="310" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604833596582" />
-    <state width="1750" height="287" key="GridCell.Tab.0.bottom" timestamp="1604840436527">
+    <state width="1750" height="287" key="GridCell.Tab.0.bottom" timestamp="1604841654050">
       <screen x="0" y="23" width="1792" height="1050" />
     </state>
     <state width="1750" height="287" key="GridCell.Tab.0.bottom/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604838848792" />
-    <state width="1750" height="287" key="GridCell.Tab.0.bottom/-373.-1417.2560.1417/0.23.1792.1050@0.23.1792.1050" timestamp="1604840436527" />
-    <state width="1750" height="287" key="GridCell.Tab.0.center" timestamp="1604840436526">
+    <state width="1750" height="287" key="GridCell.Tab.0.bottom/-373.-1417.2560.1417/0.23.1792.1050@0.23.1792.1050" timestamp="1604841654050" />
+    <state width="1750" height="287" key="GridCell.Tab.0.center" timestamp="1604841654044">
       <screen x="0" y="23" width="1792" height="1050" />
     </state>
     <state width="1750" height="287" key="GridCell.Tab.0.center/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604838848792" />
-    <state width="1750" height="287" key="GridCell.Tab.0.center/-373.-1417.2560.1417/0.23.1792.1050@0.23.1792.1050" timestamp="1604840436526" />
-    <state width="1750" height="287" key="GridCell.Tab.0.left" timestamp="1604840436526">
+    <state width="1750" height="287" key="GridCell.Tab.0.center/-373.-1417.2560.1417/0.23.1792.1050@0.23.1792.1050" timestamp="1604841654044" />
+    <state width="1750" height="287" key="GridCell.Tab.0.left" timestamp="1604841654044">
       <screen x="0" y="23" width="1792" height="1050" />
     </state>
     <state width="1750" height="287" key="GridCell.Tab.0.left/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604838848791" />
-    <state width="1750" height="287" key="GridCell.Tab.0.left/-373.-1417.2560.1417/0.23.1792.1050@0.23.1792.1050" timestamp="1604840436526" />
-    <state width="1750" height="287" key="GridCell.Tab.0.right" timestamp="1604840436527">
+    <state width="1750" height="287" key="GridCell.Tab.0.left/-373.-1417.2560.1417/0.23.1792.1050@0.23.1792.1050" timestamp="1604841654044" />
+    <state width="1750" height="287" key="GridCell.Tab.0.right" timestamp="1604841654045">
       <screen x="0" y="23" width="1792" height="1050" />
     </state>
     <state width="1750" height="287" key="GridCell.Tab.0.right/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604838848792" />
-    <state width="1750" height="287" key="GridCell.Tab.0.right/-373.-1417.2560.1417/0.23.1792.1050@0.23.1792.1050" timestamp="1604840436527" />
+    <state width="1750" height="287" key="GridCell.Tab.0.right/-373.-1417.2560.1417/0.23.1792.1050@0.23.1792.1050" timestamp="1604841654045" />
     <state x="715" y="478" key="NewPhpFileDialog" timestamp="1604833768467">
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
@@ -237,10 +245,10 @@
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
     <state x="496" y="288" key="Vcs.Push.Dialog.v2/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604839466715" />
-    <state x="561" y="254" width="670" height="676" key="run.anything.popup" timestamp="1604840436437">
+    <state x="561" y="254" width="670" height="676" key="run.anything.popup" timestamp="1604841653949">
       <screen x="0" y="23" width="1792" height="1050" />
     </state>
     <state x="561" y="254" width="670" height="675" key="run.anything.popup/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604838825168" />
-    <state x="561" y="254" width="670" height="676" key="run.anything.popup/-373.-1417.2560.1417/0.23.1792.1050@0.23.1792.1050" timestamp="1604840436437" />
+    <state x="561" y="254" width="670" height="676" key="run.anything.popup/-373.-1417.2560.1417/0.23.1792.1050@0.23.1792.1050" timestamp="1604841653949" />
   </component>
 </project>
