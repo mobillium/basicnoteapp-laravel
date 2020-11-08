@@ -177,6 +177,7 @@
       <command value="artisan make:request BaseApiRequest" />
       <command value="php artisan ide-helper:generate" />
       <command value="valet links" />
+      <command value="artisan make:model Note -m" />
       <command value="artisan migrate" />
       <command value="artisan migrate:fresh" />
     </option>
@@ -208,22 +209,26 @@
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
     <state x="634" y="310" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604833596582" />
-    <state width="1750" height="287" key="GridCell.Tab.0.bottom" timestamp="1604838848792">
-      <screen x="0" y="23" width="1792" height="1049" />
+    <state width="1750" height="287" key="GridCell.Tab.0.bottom" timestamp="1604840436527">
+      <screen x="0" y="23" width="1792" height="1050" />
     </state>
     <state width="1750" height="287" key="GridCell.Tab.0.bottom/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604838848792" />
-    <state width="1750" height="287" key="GridCell.Tab.0.center" timestamp="1604838848792">
-      <screen x="0" y="23" width="1792" height="1049" />
+    <state width="1750" height="287" key="GridCell.Tab.0.bottom/-373.-1417.2560.1417/0.23.1792.1050@0.23.1792.1050" timestamp="1604840436527" />
+    <state width="1750" height="287" key="GridCell.Tab.0.center" timestamp="1604840436526">
+      <screen x="0" y="23" width="1792" height="1050" />
     </state>
     <state width="1750" height="287" key="GridCell.Tab.0.center/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604838848792" />
-    <state width="1750" height="287" key="GridCell.Tab.0.left" timestamp="1604838848791">
-      <screen x="0" y="23" width="1792" height="1049" />
+    <state width="1750" height="287" key="GridCell.Tab.0.center/-373.-1417.2560.1417/0.23.1792.1050@0.23.1792.1050" timestamp="1604840436526" />
+    <state width="1750" height="287" key="GridCell.Tab.0.left" timestamp="1604840436526">
+      <screen x="0" y="23" width="1792" height="1050" />
     </state>
     <state width="1750" height="287" key="GridCell.Tab.0.left/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604838848791" />
-    <state width="1750" height="287" key="GridCell.Tab.0.right" timestamp="1604838848792">
-      <screen x="0" y="23" width="1792" height="1049" />
+    <state width="1750" height="287" key="GridCell.Tab.0.left/-373.-1417.2560.1417/0.23.1792.1050@0.23.1792.1050" timestamp="1604840436526" />
+    <state width="1750" height="287" key="GridCell.Tab.0.right" timestamp="1604840436527">
+      <screen x="0" y="23" width="1792" height="1050" />
     </state>
     <state width="1750" height="287" key="GridCell.Tab.0.right/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604838848792" />
+    <state width="1750" height="287" key="GridCell.Tab.0.right/-373.-1417.2560.1417/0.23.1792.1050@0.23.1792.1050" timestamp="1604840436527" />
     <state x="715" y="478" key="NewPhpFileDialog" timestamp="1604833768467">
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
@@ -232,9 +237,10 @@
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
     <state x="496" y="288" key="Vcs.Push.Dialog.v2/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604839466715" />
-    <state x="561" y="254" width="670" height="675" key="run.anything.popup" timestamp="1604838825168">
-      <screen x="0" y="23" width="1792" height="1049" />
+    <state x="561" y="254" width="670" height="676" key="run.anything.popup" timestamp="1604840436437">
+      <screen x="0" y="23" width="1792" height="1050" />
     </state>
     <state x="561" y="254" width="670" height="675" key="run.anything.popup/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604838825168" />
+    <state x="561" y="254" width="670" height="676" key="run.anything.popup/-373.-1417.2560.1417/0.23.1792.1050@0.23.1792.1050" timestamp="1604840436437" />
   </component>
 </project>
