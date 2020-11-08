@@ -14689,15 +14689,15 @@
                     /**
          * 
          *
-         * @param mixed $value
+         * @param mixed $data
          * @param mixed $code
          * @param mixed $message
          * @param mixed $status
          * @static 
          */ 
-        public static function success($value, $code = null, $message = null, $status = 200)
+        public static function success($data, $code = null, $message = null, $status = 200)
         {
-                        return \Illuminate\Http\Response::success($value, $code, $message, $status);
+                        return \Illuminate\Http\Response::success($data, $code, $message, $status);
         }
                     /**
          * 

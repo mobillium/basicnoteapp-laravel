@@ -50,4 +50,10 @@ class User extends Authenticatable
     {
         $this->attributes['password'] = Hash::make($value);
     }
+
+    public  function notes() {
+        $this->hasMany(Note::class)
+        ->orderBy('notes.updated_at', 'desc');
+    }
+
 }

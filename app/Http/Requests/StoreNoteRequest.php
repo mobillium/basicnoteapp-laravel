@@ -2,7 +2,7 @@
 
 namespace App\Http\Requests;
 
-class CreateNoteRequest extends BaseApiRequest
+class StoreNoteRequest extends BaseApiRequest
 {
     /**
      * Determine if the user is authorized to make this request.

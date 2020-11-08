@@ -6,4 +6,8 @@ return [
         'email' => 'E-email',
         'password' => 'Password',
     ],
+    'note' => [
+            'title' => 'Title',
+            'note' => 'Note',
+       ],
 ];
