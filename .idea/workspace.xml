@@ -128,6 +128,18 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
       <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-ide-helper" />
       <path value="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/vendor/league/event" />
+      <path value="$PROJECT_DIR$/vendor/league/oauth2-server" />
+      <path value="$PROJECT_DIR$/vendor/defuse/php-encryption" />
+      <path value="$PROJECT_DIR$/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/vendor/symfony/psr-http-message-bridge" />
+      <path value="$PROJECT_DIR$/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/vendor/laravel/passport" />
+      <path value="$PROJECT_DIR$/vendor/php-http/message-factory" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/nyholm/psr7" />
     </include_path>
   </component>
   <component name="ProjectId" id="1k0GRlF0s5EB3yCsYlaz4qvUx0F" />
@@ -139,6 +151,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -161,7 +179,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604830089646</updated>
-      <workItem from="1604830090681" duration="798000" />
+      <workItem from="1604830090681" duration="1277000" />
     </task>
     <servers />
   </component>
@@ -173,22 +191,22 @@
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
     <state x="634" y="310" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604831573730" />
-    <state width="1750" height="287" key="GridCell.Tab.0.bottom" timestamp="1604831551184">
+    <state width="1750" height="287" key="GridCell.Tab.0.bottom" timestamp="1604831736528">
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
-    <state width="1750" height="287" key="GridCell.Tab.0.bottom/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604831551184" />
-    <state width="1750" height="287" key="GridCell.Tab.0.center" timestamp="1604831551183">
+    <state width="1750" height="287" key="GridCell.Tab.0.bottom/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604831736528" />
+    <state width="1750" height="287" key="GridCell.Tab.0.center" timestamp="1604831736527">
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
-    <state width="1750" height="287" key="GridCell.Tab.0.center/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604831551183" />
-    <state width="1750" height="287" key="GridCell.Tab.0.left" timestamp="1604831551183">
+    <state width="1750" height="287" key="GridCell.Tab.0.center/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604831736527" />
+    <state width="1750" height="287" key="GridCell.Tab.0.left" timestamp="1604831736527">
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
-    <state width="1750" height="287" key="GridCell.Tab.0.left/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604831551183" />
-    <state width="1750" height="287" key="GridCell.Tab.0.right" timestamp="1604831551184">
+    <state width="1750" height="287" key="GridCell.Tab.0.left/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604831736527" />
+    <state width="1750" height="287" key="GridCell.Tab.0.right" timestamp="1604831736527">
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
-    <state width="1750" height="287" key="GridCell.Tab.0.right/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604831551184" />
+    <state width="1750" height="287" key="GridCell.Tab.0.right/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604831736527" />
     <state x="561" y="254" width="670" height="675" key="run.anything.popup" timestamp="1604831551116">
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
