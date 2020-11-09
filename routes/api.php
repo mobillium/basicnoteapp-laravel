@@ -18,20 +18,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::post("/auth/login", [AuthController::class, 'login']);
-Route::post("/auth/register", [AuthController::class, 'register']);
+Route::post("auth/login", [AuthController::class, 'login']);
+Route::post("auth/register", [AuthController::class, 'register']);
 
-Route::middleware(['auth'])->group(function () {
+Route::middleware(['auth:api'])->group(function () {
 
     // User
-    Route::get('/user/{user_id}', [UserController::class, 'show']);
-    Route::get('user.note', [UserNotesController::class, 'index']);
+    Route::get('user/{user}', [UserController::class, 'show']);
+    Route::get('user/{user}/note', [UserNotesController::class, 'index']);
 
     // Note
     Route::resource('note', NoteController::class, ['store', 'show', 'update', 'destroy']);
 
-});
-
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
 });

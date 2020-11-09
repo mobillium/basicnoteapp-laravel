@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0f95619e-4894-4ff7-8aa7-29069728bcef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserNotesController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Policies/NotePolicy.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_ide_helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/_ide_helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/NoteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/NoteController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserNotesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserNotesController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/CreateNoteRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/StoreNoteRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Note.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Note.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Policies/NotePolicy.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Policies/NotePolicy.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Providers/ResponseMacroServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/ResponseMacroServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/error.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/error.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -199,6 +200,10 @@
       <command value="artisan make:policy NotePolicy --model:Note" />
       <command value="artisan make:policy NotePolicy --model=Note" />
       <command value="artisan make:controller UserNotesController" />
+      <command value="artisan make:middleware CheckTokenMiddleware" />
+      <command value="artisan cache:clear" />
+      <command value="artisan make:middleware AuthenticateApiRequired" />
+      <command value="artisan make:middleware AuthenticateApi" />
     </option>
   </component>
   <component name="RunManager">
@@ -217,7 +222,9 @@
       <updated>1604830089646</updated>
       <workItem from="1604830090681" duration="2825000" />
       <workItem from="1604833713184" duration="1432000" />
-      <workItem from="1604852367926" duration="4459000" />
+      <workItem from="1604852367926" duration="4601000" />
+      <workItem from="1604864102270" duration="7498000" />
+      <workItem from="1604931691844" duration="1478000" />
     </task>
     <servers />
   </component>
@@ -229,42 +236,55 @@
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
     <state x="609" y="47" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604853861722" />
-    <state x="634" y="310" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1604856597076">
+    <state x="634" y="310" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1604871490857">
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
-    <state x="634" y="310" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604856597076" />
-    <state width="1750" height="287" key="GridCell.Tab.0.bottom" timestamp="1604856100503">
+    <state x="634" y="310" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604871490857" />
+    <state width="1750" height="287" key="GridCell.Tab.0.bottom" timestamp="1604872320103">
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
-    <state width="1750" height="287" key="GridCell.Tab.0.bottom/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604856100503" />
+    <state width="1750" height="287" key="GridCell.Tab.0.bottom/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604872320103" />
     <state width="1750" height="287" key="GridCell.Tab.0.bottom/-373.-1417.2560.1417/0.23.1792.1050@0.23.1792.1050" timestamp="1604841654050" />
-    <state width="1750" height="287" key="GridCell.Tab.0.center" timestamp="1604856100502">
+    <state width="1750" height="287" key="GridCell.Tab.0.center" timestamp="1604872320103">
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
-    <state width="1750" height="287" key="GridCell.Tab.0.center/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604856100502" />
+    <state width="1750" height="287" key="GridCell.Tab.0.center/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604872320103" />
     <state width="1750" height="287" key="GridCell.Tab.0.center/-373.-1417.2560.1417/0.23.1792.1050@0.23.1792.1050" timestamp="1604841654044" />
-    <state width="1750" height="287" key="GridCell.Tab.0.left" timestamp="1604856100501">
+    <state width="1750" height="287" key="GridCell.Tab.0.left" timestamp="1604872320103">
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
-    <state width="1750" height="287" key="GridCell.Tab.0.left/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604856100501" />
+    <state width="1750" height="287" key="GridCell.Tab.0.left/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604872320103" />
     <state width="1750" height="287" key="GridCell.Tab.0.left/-373.-1417.2560.1417/0.23.1792.1050@0.23.1792.1050" timestamp="1604841654044" />
-    <state width="1750" height="287" key="GridCell.Tab.0.right" timestamp="1604856100502">
+    <state width="1750" height="287" key="GridCell.Tab.0.right" timestamp="1604872320103">
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
-    <state width="1750" height="287" key="GridCell.Tab.0.right/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604856100502" />
+    <state width="1750" height="287" key="GridCell.Tab.0.right/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604872320103" />
     <state width="1750" height="287" key="GridCell.Tab.0.right/-373.-1417.2560.1417/0.23.1792.1050@0.23.1792.1050" timestamp="1604841654045" />
     <state x="715" y="478" key="NewPhpFileDialog" timestamp="1604833768467">
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
     <state x="715" y="478" key="NewPhpFileDialog/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604833768467" />
+    <state x="634" y="257" key="RollbackChangesDialog" timestamp="1604871011471">
+      <screen x="0" y="23" width="1792" height="1049" />
+    </state>
+    <state x="634" y="257" key="RollbackChangesDialog/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604871011471" />
     <state x="496" y="288" key="Vcs.Push.Dialog.v2" timestamp="1604839466715">
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
     <state x="496" y="288" key="Vcs.Push.Dialog.v2/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604839466715" />
-    <state x="561" y="254" width="670" height="675" key="run.anything.popup" timestamp="1604856015178">
+    <state x="594" y="303" width="604" height="490" key="find.popup" timestamp="1604868430474">
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
-    <state x="561" y="254" width="670" height="675" key="run.anything.popup/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604856015178" />
+    <state x="594" y="303" width="604" height="490" key="find.popup/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604868430474" />
+    <state x="561" y="254" width="670" height="675" key="run.anything.popup" timestamp="1604871419407">
+      <screen x="0" y="23" width="1792" height="1049" />
+    </state>
+    <state x="561" y="254" width="670" height="675" key="run.anything.popup/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604871419407" />
     <state x="561" y="254" width="670" height="676" key="run.anything.popup/-373.-1417.2560.1417/0.23.1792.1050@0.23.1792.1050" timestamp="1604841653949" />
+    <state x="561" y="257" width="670" height="677" key="search.everywhere.popup" timestamp="1604932530870">
+      <screen x="0" y="23" width="1792" height="1050" />
+    </state>
+    <state x="561" y="257" width="670" height="676" key="search.everywhere.popup/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604867146547" />
+    <state x="561" y="257" width="670" height="677" key="search.everywhere.popup/-373.-1417.2560.1417/0.23.1792.1050@0.23.1792.1050" timestamp="1604932530870" />
   </component>
 </project>

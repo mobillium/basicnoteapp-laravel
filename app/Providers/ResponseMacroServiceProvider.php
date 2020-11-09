@@ -30,8 +30,8 @@ class ResponseMacroServiceProvider extends ServiceProvider
                                              $status = 200) {
             return Response::json([
                 'code' => $code ?? __('success.code.default'),
-                'data' => $data ?? __('success.message.default'),
-                'message' => $message
+                'data' => $data,
+                'message' => $message ?? __('success.message.default')
             ], $status);
         });
 

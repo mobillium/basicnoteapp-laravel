@@ -8,10 +8,10 @@ use Illuminate\Http\Request;
 class UserNotesController extends Controller
 {
 
-    public function store(Request $request)
+    public function index(Request $request)
     {
         $user = $request->user();
-        $notes = $user->notes();
+        $notes = $user->notes()->get();
         return response()->success($notes);
     }
 }

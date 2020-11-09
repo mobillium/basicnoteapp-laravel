@@ -2,7 +2,10 @@
 
 namespace App\Exceptions;
 
+use Illuminate\Auth\Access\AuthorizationException;
+use Illuminate\Auth\AuthenticationException;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
+use Throwable;
 
 class Handler extends ExceptionHandler
 {
@@ -34,4 +37,18 @@ class Handler extends ExceptionHandler
     {
         //
     }
+
+    protected function unauthenticated($request, AuthenticationException $exception)
+    {
+        return response()->error(__('error.message.non-authorize'), __('error.code.non-authorize'), 401);
+    }
+
+    public function render($request, Throwable $e)
+    {
+        if ($e instanceof AuthorizationException) {
+            return response()->error(__('error.message.non-authorize'), __('error.code.non-authorize'), 403);
+        }
+        return parent::render($request, $e);
+    }
+
 }

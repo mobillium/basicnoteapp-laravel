@@ -30,7 +30,7 @@ class NotePolicy
      */
     public function view(User $user, Note $note)
     {
-        //
+        return $user->id === $note->user_id;
     }
 
     /**

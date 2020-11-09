@@ -4,10 +4,14 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\StoreNoteRequest;
 use App\Models\Note;
-use Illuminate\Http\Request;
 
 class NoteController extends Controller
 {
+
+    public function __construct()
+    {
+        $this->authorizeResource(Note::class, 'note');
+    }
 
     public function store(StoreNoteRequest $request)
     {
