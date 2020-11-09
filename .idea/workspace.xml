@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f95619e-4894-4ff7-8aa7-29069728bcef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_ide_helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/_ide_helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/error.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/error.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +185,6 @@
       <command value="artisan make:request BaseApiRequest" />
       <command value="valet links" />
       <command value="artisan make:model Note -m" />
-      <command value="artisan migrate" />
       <command value="artisan migrate:fresh" />
       <command value="artisan make:controller NoteController" />
       <command value="artisan make:request CreateNoteRequest" />
@@ -193,8 +197,10 @@
       <command value="artisan cache:clear" />
       <command value="artisan make:middleware AuthenticateApiRequired" />
       <command value="artisan make:middleware AuthenticateApi" />
-      <command value="php artisan ide-helper:generate" />
       <command value="artisan config:clear" />
+      <command value="artisan serve" />
+      <command value="artisan migrate" />
+      <command value="php artisan ide-helper:generate" />
     </option>
   </component>
   <component name="RunManager">
@@ -217,7 +223,9 @@
       <workItem from="1604864102270" duration="7498000" />
       <workItem from="1604931691844" duration="2135000" />
       <workItem from="1604934740734" duration="63000" />
-      <workItem from="1604936306834" duration="1638000" />
+      <workItem from="1604936306834" duration="2403000" />
+      <workItem from="1604955436816" duration="2877000" />
+      <workItem from="1604961636115" duration="618000" />
     </task>
     <servers />
   </component>
@@ -233,25 +241,25 @@
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
     <state x="634" y="310" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604871490857" />
-    <state width="1750" height="287" key="GridCell.Tab.0.bottom" timestamp="1604938429124">
+    <state width="1750" height="315" key="GridCell.Tab.0.bottom" timestamp="1604961621105">
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
-    <state width="1750" height="287" key="GridCell.Tab.0.bottom/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604938429124" />
+    <state width="1750" height="315" key="GridCell.Tab.0.bottom/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604961621105" />
     <state width="1750" height="287" key="GridCell.Tab.0.bottom/-373.-1417.2560.1417/0.23.1792.1050@0.23.1792.1050" timestamp="1604841654050" />
-    <state width="1750" height="287" key="GridCell.Tab.0.center" timestamp="1604938429123">
+    <state width="1750" height="315" key="GridCell.Tab.0.center" timestamp="1604961621105">
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
-    <state width="1750" height="287" key="GridCell.Tab.0.center/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604938429123" />
+    <state width="1750" height="315" key="GridCell.Tab.0.center/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604961621105" />
     <state width="1750" height="287" key="GridCell.Tab.0.center/-373.-1417.2560.1417/0.23.1792.1050@0.23.1792.1050" timestamp="1604841654044" />
-    <state width="1750" height="287" key="GridCell.Tab.0.left" timestamp="1604938429122">
+    <state width="1750" height="315" key="GridCell.Tab.0.left" timestamp="1604961621105">
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
-    <state width="1750" height="287" key="GridCell.Tab.0.left/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604938429122" />
+    <state width="1750" height="315" key="GridCell.Tab.0.left/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604961621105" />
     <state width="1750" height="287" key="GridCell.Tab.0.left/-373.-1417.2560.1417/0.23.1792.1050@0.23.1792.1050" timestamp="1604841654044" />
-    <state width="1750" height="287" key="GridCell.Tab.0.right" timestamp="1604938429123">
+    <state width="1750" height="315" key="GridCell.Tab.0.right" timestamp="1604961621105">
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
-    <state width="1750" height="287" key="GridCell.Tab.0.right/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604938429123" />
+    <state width="1750" height="315" key="GridCell.Tab.0.right/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604961621105" />
     <state width="1750" height="287" key="GridCell.Tab.0.right/-373.-1417.2560.1417/0.23.1792.1050@0.23.1792.1050" timestamp="1604841654045" />
     <state x="715" y="478" key="NewPhpFileDialog" timestamp="1604833768467">
       <screen x="0" y="23" width="1792" height="1049" />
@@ -265,19 +273,19 @@
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
     <state x="496" y="288" key="Vcs.Push.Dialog.v2/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604839466715" />
-    <state x="594" y="303" width="604" height="490" key="find.popup" timestamp="1604934797153">
+    <state x="594" y="303" width="604" height="490" key="find.popup" timestamp="1604962112110">
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
-    <state x="594" y="303" width="604" height="490" key="find.popup/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604934797153" />
-    <state x="561" y="254" width="670" height="675" key="run.anything.popup" timestamp="1604938418901">
+    <state x="594" y="303" width="604" height="490" key="find.popup/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604962112110" />
+    <state x="561" y="254" width="670" height="675" key="run.anything.popup" timestamp="1604962080698">
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
-    <state x="561" y="254" width="670" height="675" key="run.anything.popup/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604938418901" />
+    <state x="561" y="254" width="670" height="675" key="run.anything.popup/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604962080698" />
     <state x="561" y="254" width="670" height="676" key="run.anything.popup/-373.-1417.2560.1417/0.23.1792.1050@0.23.1792.1050" timestamp="1604841653949" />
-    <state x="561" y="257" width="670" height="676" key="search.everywhere.popup" timestamp="1604934744041">
+    <state x="561" y="257" width="670" height="676" key="search.everywhere.popup" timestamp="1604962255745">
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
-    <state x="561" y="257" width="670" height="676" key="search.everywhere.popup/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604934744041" />
+    <state x="561" y="257" width="670" height="676" key="search.everywhere.popup/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604962255745" />
     <state x="561" y="257" width="670" height="677" key="search.everywhere.popup/-373.-1417.2560.1417/0.23.1792.1050@0.23.1792.1050" timestamp="1604932530870" />
   </component>
 </project>

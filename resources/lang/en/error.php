@@ -2,12 +2,12 @@
 
 return [
     'code' => [
-        'non-authorize' => 'non-authorize',
+        'unauthorized' => 'unauthorized',
         'default' => 'common.error',
         'not-found' => 'not-found',
     ],
     'message' => [
-        'non-authorize' => 'Please Login',
+        'unauthorized' => 'This action is unauthorized.',
         'default' => 'Error',
         'user-not-found' => 'User not found.',
     ],

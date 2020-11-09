@@ -40,13 +40,14 @@ class Handler extends ExceptionHandler
 
     protected function unauthenticated($request, AuthenticationException $exception)
     {
-        return response()->error(__('error.message.non-authorize'), __('error.code.non-authorize'), 401);
+        return response()->error(__('error.message.unauthorized'), __('error.code.unauthorized'), 403);
     }
 
     public function render($request, Throwable $e)
     {
+        dd($request);
         if ($e instanceof AuthorizationException) {
-            return response()->error(__('error.message.non-authorize'), __('error.code.non-authorize'), 403);
+            return response()->error(__('error.message.unauthorized'), __('error.code.unauthorized'), 403);
         }
         return parent::render($request, $e);
     }
