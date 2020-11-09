@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f95619e-4894-4ff7-8aa7-29069728bcef" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/basicnoteapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/basicnoteapp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/NoteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/NoteController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserNotesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserNotesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Policies/NotePolicy.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Policies/NotePolicy.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/ResponseMacroServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/ResponseMacroServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/error.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/error.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +216,7 @@
       <workItem from="1604833713184" duration="1432000" />
       <workItem from="1604852367926" duration="4601000" />
       <workItem from="1604864102270" duration="7498000" />
-      <workItem from="1604931691844" duration="1478000" />
+      <workItem from="1604931691844" duration="1821000" />
     </task>
     <servers />
   </component>
