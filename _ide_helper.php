@@ -10518,6 +10518,31 @@
         {
                         return \Illuminate\Routing\ResponseFactory::hasMacro($name);
         }
+                    /**
+         * 
+         *
+         * @param mixed $data
+         * @param mixed $code
+         * @param mixed $message
+         * @param mixed $status
+         * @static 
+         */ 
+        public static function success($data, $code = null, $message = null, $status = 200)
+        {
+                        return \Illuminate\Routing\ResponseFactory::success($data, $code, $message, $status);
+        }
+                    /**
+         * 
+         *
+         * @param mixed $message
+         * @param mixed $code
+         * @param mixed $status
+         * @static 
+         */ 
+        public static function error($message = null, $code = null, $status = 400)
+        {
+                        return \Illuminate\Routing\ResponseFactory::error($message, $code, $status);
+        }
          
     }
             /**
@@ -14681,11 +14706,15 @@
         }
          
     }
+     
+}
+
+    namespace Illuminate\Routing { 
             /**
      * 
      *
      */ 
-        class Response {
+        class ResponseFactory {
                     /**
          * 
          *
@@ -14697,7 +14726,7 @@
          */ 
         public static function success($data, $code = null, $message = null, $status = 200)
         {
-                        return \Illuminate\Http\Response::success($data, $code, $message, $status);
+                        return \Illuminate\Routing\ResponseFactory::success($data, $code, $message, $status);
         }
                     /**
          * 
@@ -14709,7 +14738,7 @@
          */ 
         public static function error($message = null, $code = null, $status = 400)
         {
-                        return \Illuminate\Http\Response::error($message, $code, $status);
+                        return \Illuminate\Routing\ResponseFactory::error($message, $code, $status);
         }
          
     }
