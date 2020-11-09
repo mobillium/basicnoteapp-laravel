@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0f95619e-4894-4ff7-8aa7-29069728bcef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_ide_helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/_ide_helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,6 +216,8 @@
       <workItem from="1604852367926" duration="4601000" />
       <workItem from="1604864102270" duration="7498000" />
       <workItem from="1604931691844" duration="2135000" />
+      <workItem from="1604934740734" duration="63000" />
+      <workItem from="1604936306834" duration="11000" />
     </task>
     <servers />
   </component>
@@ -263,19 +265,19 @@
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
     <state x="496" y="288" key="Vcs.Push.Dialog.v2/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604839466715" />
-    <state x="594" y="303" width="604" height="490" key="find.popup" timestamp="1604868430474">
+    <state x="594" y="303" width="604" height="490" key="find.popup" timestamp="1604934797153">
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
-    <state x="594" y="303" width="604" height="490" key="find.popup/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604868430474" />
+    <state x="594" y="303" width="604" height="490" key="find.popup/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604934797153" />
     <state x="561" y="254" width="670" height="675" key="run.anything.popup" timestamp="1604934400670">
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
     <state x="561" y="254" width="670" height="675" key="run.anything.popup/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604934400670" />
     <state x="561" y="254" width="670" height="676" key="run.anything.popup/-373.-1417.2560.1417/0.23.1792.1050@0.23.1792.1050" timestamp="1604841653949" />
-    <state x="561" y="257" width="670" height="677" key="search.everywhere.popup" timestamp="1604932530870">
-      <screen x="0" y="23" width="1792" height="1050" />
+    <state x="561" y="257" width="670" height="676" key="search.everywhere.popup" timestamp="1604934744041">
+      <screen x="0" y="23" width="1792" height="1049" />
     </state>
-    <state x="561" y="257" width="670" height="676" key="search.everywhere.popup/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604867146547" />
+    <state x="561" y="257" width="670" height="676" key="search.everywhere.popup/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604934744041" />
     <state x="561" y="257" width="670" height="677" key="search.everywhere.popup/-373.-1417.2560.1417/0.23.1792.1050@0.23.1792.1050" timestamp="1604932530870" />
   </component>
 </project>
