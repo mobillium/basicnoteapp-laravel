@@ -45,7 +45,6 @@ class Handler extends ExceptionHandler
 
     public function render($request, Throwable $e)
     {
-        dd($request);
         if ($e instanceof AuthorizationException) {
             return response()->error(__('error.message.unauthorized'), __('error.code.unauthorized'), 403);
         }
