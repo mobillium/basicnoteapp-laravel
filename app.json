@@ -1,6 +1,9 @@
 {
     "name": "basicnoteapp",
     "description": "Basic Note App Description",
+    "scripts": {
+        "postdeploy": "php artisan postdeploy:heroku"
+    },
     "keywords": [
         "note",
         "app",
@@ -10,10 +13,5 @@
     ],
     "repository": "https://github.com/aslanmehmetsalih/basicnoteapp-laravel",
     "success_url": "/welcome",
-    "addons": ["heroku-postgresql:hobby-dev"],
-    "addons": [
-        {
-            "plan": "heroku-postgresql:hobby-dev",
-        }
-    ]
+    "addons": ["heroku-postgresql:hobby-dev", "heroku-redis:hobby-dev"]
 }
