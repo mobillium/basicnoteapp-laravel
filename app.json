@@ -1,0 +1,13 @@
+{
+    "name": "basicnoteapp",
+    "description": "Basic Note App Description",
+    "keywords": [
+        "note",
+        "app",
+        "api",
+        "laravel",
+        "rest"
+    ],
+    "repository": "https://github.com/aslanmehmetsalih/basicnoteapp-laravel.git",
+    "success_url": "-welcome"
+}
