@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f95619e-4894-4ff7-8aa7-29069728bcef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/passport.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2016_06_01_000001_create_oauth_auth_codes_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2016_06_01_000002_create_oauth_access_tokens_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2016_06_01_000003_create_oauth_refresh_tokens_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2016_06_01_000004_create_oauth_clients_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2016_06_01_000005_create_oauth_personal_access_clients_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,7 +223,7 @@
       <workItem from="1604955436816" duration="2877000" />
       <workItem from="1604961636115" duration="1405000" />
       <workItem from="1604964053768" duration="229000" />
-      <workItem from="1604964397169" duration="1526000" />
+      <workItem from="1604964397169" duration="1849000" />
     </task>
     <servers />
   </component>
@@ -244,25 +239,25 @@
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
     <state x="634" y="310" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604871490857" />
-    <state width="1750" height="315" key="GridCell.Tab.0.bottom" timestamp="1604966072664">
+    <state width="1750" height="315" key="GridCell.Tab.0.bottom" timestamp="1604966224574">
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
-    <state width="1750" height="315" key="GridCell.Tab.0.bottom/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604966072664" />
+    <state width="1750" height="315" key="GridCell.Tab.0.bottom/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604966224574" />
     <state width="1750" height="287" key="GridCell.Tab.0.bottom/-373.-1417.2560.1417/0.23.1792.1050@0.23.1792.1050" timestamp="1604841654050" />
-    <state width="1750" height="315" key="GridCell.Tab.0.center" timestamp="1604966072663">
+    <state width="1750" height="315" key="GridCell.Tab.0.center" timestamp="1604966224573">
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
-    <state width="1750" height="315" key="GridCell.Tab.0.center/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604966072663" />
+    <state width="1750" height="315" key="GridCell.Tab.0.center/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604966224573" />
     <state width="1750" height="287" key="GridCell.Tab.0.center/-373.-1417.2560.1417/0.23.1792.1050@0.23.1792.1050" timestamp="1604841654044" />
-    <state width="1750" height="315" key="GridCell.Tab.0.left" timestamp="1604966072663">
+    <state width="1750" height="315" key="GridCell.Tab.0.left" timestamp="1604966224572">
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
-    <state width="1750" height="315" key="GridCell.Tab.0.left/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604966072663" />
+    <state width="1750" height="315" key="GridCell.Tab.0.left/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604966224572" />
     <state width="1750" height="287" key="GridCell.Tab.0.left/-373.-1417.2560.1417/0.23.1792.1050@0.23.1792.1050" timestamp="1604841654044" />
-    <state width="1750" height="315" key="GridCell.Tab.0.right" timestamp="1604966072664">
+    <state width="1750" height="315" key="GridCell.Tab.0.right" timestamp="1604966224573">
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
-    <state width="1750" height="315" key="GridCell.Tab.0.right/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604966072664" />
+    <state width="1750" height="315" key="GridCell.Tab.0.right/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604966224573" />
     <state width="1750" height="287" key="GridCell.Tab.0.right/-373.-1417.2560.1417/0.23.1792.1050@0.23.1792.1050" timestamp="1604841654045" />
     <state x="715" y="478" key="NewPhpFileDialog" timestamp="1604833768467">
       <screen x="0" y="23" width="1792" height="1049" />
@@ -276,14 +271,14 @@
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
     <state x="496" y="288" key="Vcs.Push.Dialog.v2/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604839466715" />
-    <state x="594" y="303" width="604" height="490" key="find.popup" timestamp="1604965027121">
+    <state x="594" y="303" width="604" height="490" key="find.popup" timestamp="1604966519624">
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
-    <state x="594" y="303" width="604" height="490" key="find.popup/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604965027121" />
-    <state x="561" y="254" width="670" height="675" key="run.anything.popup" timestamp="1604964802253">
+    <state x="594" y="303" width="604" height="490" key="find.popup/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604966519624" />
+    <state x="561" y="254" width="670" height="675" key="run.anything.popup" timestamp="1604966224504">
       <screen x="0" y="23" width="1792" height="1049" />
     </state>
-    <state x="561" y="254" width="670" height="675" key="run.anything.popup/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604964802253" />
+    <state x="561" y="254" width="670" height="675" key="run.anything.popup/-373.-1417.2560.1417/0.23.1792.1049@0.23.1792.1049" timestamp="1604966224504" />
     <state x="561" y="254" width="670" height="676" key="run.anything.popup/-373.-1417.2560.1417/0.23.1792.1050@0.23.1792.1050" timestamp="1604841653949" />
     <state x="561" y="257" width="670" height="676" key="search.everywhere.popup" timestamp="1604964482316">
       <screen x="0" y="23" width="1792" height="1049" />
