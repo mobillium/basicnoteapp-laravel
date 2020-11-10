@@ -10,7 +10,10 @@
     ],
     "repository": "https://github.com/aslanmehmetsalih/basicnoteapp-laravel",
     "success_url": "/welcome",
+    "addons": ["heroku-postgresql:hobby-dev"],
     "addons": [
-        "heroku-postgresql:hobby-dev"
+        {
+            "plan": "heroku-postgresql:hobby-dev",
+        }
     ]
 }
