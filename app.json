@@ -8,6 +8,9 @@
         "laravel",
         "rest"
     ],
-    "repository": "https://github.com/aslanmehmetsalih/basicnoteapp-laravel.git",
-    "success_url": "-welcome"
+    "repository": "https://github.com/aslanmehmetsalih/basicnoteapp-laravel",
+    "success_url": "/welcome",
+    "addons": [
+        "heroku-postgresql:hobby-dev"
+    ]
 }
