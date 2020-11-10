@@ -1,9 +1,6 @@
 {
     "name": "basicnoteapp",
     "description": "Basic Note App Description",
-    "scripts": {
-        "postdeploy": "php artisan postdeploy:heroku"
-    },
     "keywords": [
         "note",
         "app",
