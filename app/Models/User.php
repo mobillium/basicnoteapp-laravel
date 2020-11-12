@@ -52,7 +52,7 @@ class User extends Authenticatable
 
     public function notes() {
         return $this->hasMany(Note::class)
-        ->orderBy('notes.updated_at', 'desc');
+                    ->orderBy('notes.updated_at', 'desc');
     }
 
 }

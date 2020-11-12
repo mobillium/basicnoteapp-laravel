@@ -9,6 +9,7 @@ return [
     'message' => [
         'unauthorized' => 'This action is unauthorized.',
         'default' => 'Error',
-        'user-not-found' => 'User not found.',
+        'not-found' => 'Not found.',
+        'user-not-found' => 'User not found.'
     ],
 ];

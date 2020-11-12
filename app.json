@@ -24,8 +24,5 @@
         "APP_KEY": {
             "value": "base64:PlzDST6TLtA4+NeDPtiVvRG9KC18yHZxeCPkbICvb3M="
         }
-    },
-    "scripts": {
-        "migrate": "php artisan migrate"
     }
 }
