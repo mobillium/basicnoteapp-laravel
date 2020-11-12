@@ -62,5 +62,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/aslanmehmetsalih/basicnoteapp-laravel.git)
 
-[PostmanCollection](https://github.com/aslanmehmetsalih/basicnoteapp-laravel/blob/master/PostmanCollection.json)
+[PostmanCollection](https://github.com/aslanmehmetsalih/basicnoteapp-laravel/master/PostmanCollection.json)
+
+[Design File](https://github.com/aslanmehmetsalih/basicnoteapp-laravel/blob/master/ZoneZeroCaseApp.xd)
 
