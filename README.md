@@ -69,12 +69,12 @@ If you don't have one create from [here](https://www.heroku.com/).
 2. Click Deploy to Heroku button.
 3. Complete deploy.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/aslanmehmetsalih/basicnoteapp-laravel.git)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/mobillium/basicnoteapp-laravel.git)
 
 ### Postman
 
 1. Download [Postman](https://www.postman.com).
-2. Download [PostmanCollection](https://github.com/aslanmehmetsalih/basicnoteapp-laravel/blob/master/PostmanCollection.json?raw=true)
+2. Download <a href="PostmanCollection.json?raw=true">Postman file</a>
 3. Import Collection file to Postman.
 4. Create Environment.
 5. Add new variable named `api_url`. Your url must be `HerokuAppUrl/api/`, for example `https://noteexample.herokuapp.com/api/`
@@ -83,4 +83,4 @@ If you don't have one create from [here](https://www.heroku.com/).
 ### Mobile App Design
 
 1. Download [Adobe XD](https://www.adobe.com/tr/products/xd.html) 
-2. Download [Design File](https://github.com/aslanmehmetsalih/basicnoteapp-laravel/blob/master/ZoneZeroCaseApp.xd?raw=true)
+2. Download <a href="ZoneZeroCaseApp.xd?raw=true">Postman file</a>
