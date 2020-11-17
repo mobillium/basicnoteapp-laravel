@@ -83,4 +83,4 @@ If you don't have one create from [here](https://www.heroku.com/).
 ### Mobile App Design
 
 1. Download [Adobe XD](https://www.adobe.com/tr/products/xd.html) 
-2. Download <a href="ZoneZeroCaseApp.xd?raw=true">Postman file</a>
+2. Download <a href="ZoneZeroCaseApp.xd?raw=true">Design file</a>
