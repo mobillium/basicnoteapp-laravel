@@ -77,8 +77,8 @@ If you don't have one create from [here](https://www.heroku.com/).
 2. Download [PostmanCollection](https://github.com/aslanmehmetsalih/basicnoteapp-laravel/blob/master/PostmanCollection.json?raw=true)
 3. Import Collection file to Postman.
 4. Create Environment.
-5. Add new variable named "api_url". Your url must be `HerokuAppUrl/api/`, for example `https://noteexample.herokuapp.com/api/`
-6. Add new variable named "token". You can get token by `register` or `login` requests.
+5. Add new variable named `api_url`. Your url must be `HerokuAppUrl/api/`, for example `https://noteexample.herokuapp.com/api/`
+6. Add new variable named `token`. You can get token by `register` or `login` requests.
 
 ### Mobile App Design
 
