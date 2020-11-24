@@ -121,19 +121,12 @@
 							}
 						},
 						"url": {
-							"raw": "{{api_url}}user/:user_id",
+							"raw": "{{api_url}}user/self",
 							"host": [
 								"{{api_url}}user"
 							],
 							"path": [
-								":user_id"
-							],
-							"variable": [
-								{
-									"key": "user_id",
-									"value": "1",
-									"type": "string"
-								}
+								"self"
 							]
 						}
 					},
@@ -165,25 +158,18 @@
 							}
 						},
 						"url": {
-							"raw": "{{api_url}}user/:user_id/note?page=1",
+							"raw": "{{api_url}}user/self/note?page=1",
 							"host": [
 								"{{api_url}}user"
 							],
 							"path": [
-								":user_id",
+								"self",
 								"note"
 							],
 							"query": [
 								{
 									"key": "page",
 									"value": "1"
-								}
-							],
-							"variable": [
-								{
-									"key": "user_id",
-									"value": "1",
-									"type": "string"
 								}
 							]
 						}

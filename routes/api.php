@@ -24,8 +24,8 @@ Route::post("auth/register", [AuthController::class, 'register']);
 Route::middleware(['auth:api'])->group(function () {
 
     // User
-    Route::get('user/{user}', [UserController::class, 'show']);
-    Route::get('user/{user}/note', [UserNotesController::class, 'index']);
+    Route::get('user/self', [UserController::class, 'show']);
+    Route::get('user/self/note', [UserNotesController::class, 'index']);
 
     // Note
     Route::resource('note', NoteController::class, ['store', 'show', 'update', 'destroy']);
