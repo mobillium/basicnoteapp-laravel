@@ -44,6 +44,36 @@
 					"response": []
 				},
 				{
+					"name": "Forgot Password",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "aslanmsalih@gmail.com",
+									"type": "text"
+								}
+							],
+							"options": {
+								"formdata": {}
+							}
+						},
+						"url": {
+							"raw": "{{api_url}}auth/forgot-password",
+							"host": [
+								"{{api_url}}auth"
+							],
+							"path": [
+								"forgot-password"
+							]
+						}
+					},
+					"response": []
+				},
+				{
 					"name": "Register",
 					"request": {
 						"auth": {
