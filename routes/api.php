@@ -24,10 +24,11 @@ Route::post("auth/register", [AuthController::class, 'register']);
 Route::middleware(['auth:api'])->group(function () {
 
     // User
-    Route::get('user/self', [UserController::class, 'show']);
-    Route::get('user/self/note', [UserNotesController::class, 'index']);
+    Route::get('users/me', [UserController::class, 'show']);
+    Route::put('users/me', [UserController::class, 'update']);
+    Route::get('users/me/notes', [UserNotesController::class, 'index']);
 
     // Note
-    Route::resource('note', NoteController::class, ['store', 'show', 'update', 'destroy']);
+    Route::resource('notes', NoteController::class, ['store', 'show', 'update', 'destroy']);
 
 });
