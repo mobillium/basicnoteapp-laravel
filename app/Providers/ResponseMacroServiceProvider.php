@@ -2,6 +2,8 @@
 
 namespace App\Providers;
 
+use App\Constants\ErrorCode;
+use App\Constants\SuccessCode;
 use Illuminate\Support\Facades\Response;
 use Illuminate\Support\ServiceProvider;
 
@@ -25,22 +27,20 @@ class ResponseMacroServiceProvider extends ServiceProvider
     public function boot()
     {
         Response::macro('success', function ($data,
-                                             $code = null,
-                                             $message = null,
+                                             $code = SuccessCode::DEFAULT,
                                              $status = 200) {
             return Response::json([
-                'code' => $code ?? __('success.code.default'),
+                'code' => $code,
                 'data' => $data,
-                'message' => $message ?? __('success.message.default')
+                'message' => __('success.'.$code)
             ], $status);
         });
 
-        Response::macro('error', function ($message = null,
-                                           $code = null,
+        Response::macro('error', function ($code = ErrorCode::DEFAULT,
                                            $status = 400) {
             return Response::json([
-                'code' => $code ?? __('error.code.default'),
-                'message' => $message ?? __('error.message.default')
+                'code' => $code,
+                'message' => $message ?? __('error.'.$code)
             ], $status);
         });
     }

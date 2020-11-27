@@ -1,15 +1,17 @@
 <?php
 
 return [
-    'code' => [
-        'unauthorized' => 'unauthorized',
-        'default' => 'common.error',
-        'not-found' => 'not-found',
-    ],
-    'message' => [
-        'unauthorized' => 'This action is unauthorized.',
-        'default' => 'Error',
+
+    'common' => [
+        'error' => 'Error',
         'not-found' => 'Not found.',
-        'user-not-found' => 'User not found.'
+    ],
+    'auth' => [
+        'unauthorized' => 'This action is unauthorized.',
+        'unauthenticated' => 'Unauthenticated.',
+        'failed' => 'Invalid email of password.'
+    ],
+    'user' => [
+        'invalid-password' => 'Invalid password.',
     ],
 ];
