@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\ForgotPasswordRequest;
 use App\Http\Requests\LoginRequest;
 use App\Http\Requests\RegisterRequest;
 use App\Models\User;
@@ -21,6 +22,10 @@ class AuthController extends Controller
         }else{
             return response()->error();
         }
+    }
+
+    function forgotPassword(ForgotPasswordRequest $request) {
+        return  response()->success(null, __('success.code.forgot-password'), __('success.message.forgot-password'));
     }
 
     private function generateToken(User $user) {

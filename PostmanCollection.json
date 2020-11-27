@@ -44,6 +44,36 @@
 					"response": []
 				},
 				{
+					"name": "Forgot Password",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "aslanmsalih@gmail.com",
+									"type": "text"
+								}
+							],
+							"options": {
+								"formdata": {}
+							}
+						},
+						"url": {
+							"raw": "{{api_url}}auth/forgot-password",
+							"host": [
+								"{{api_url}}auth"
+							],
+							"path": [
+								"forgot-password"
+							]
+						}
+					},
+					"response": []
+				},
+				{
 					"name": "Register",
 					"request": {
 						"auth": {
@@ -96,7 +126,7 @@
 			"name": "User",
 			"item": [
 				{
-					"name": "Get User",
+					"name": "Get Me",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -121,19 +151,19 @@
 							}
 						},
 						"url": {
-							"raw": "{{api_url}}user/self",
+							"raw": "{{api_url}}users/me",
 							"host": [
-								"{{api_url}}user"
+								"{{api_url}}users"
 							],
 							"path": [
-								"self"
+								"me"
 							]
 						}
 					},
 					"response": []
 				},
 				{
-					"name": "Get Notes",
+					"name": "Get My Notes",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -158,19 +188,66 @@
 							}
 						},
 						"url": {
-							"raw": "{{api_url}}user/self/note?page=1",
+							"raw": "{{api_url}}users/me/notes?page=1",
 							"host": [
-								"{{api_url}}user"
+								"{{api_url}}users"
 							],
 							"path": [
-								"self",
-								"note"
+								"me",
+								"notes"
 							],
 							"query": [
 								{
 									"key": "page",
 									"value": "1"
 								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "User Me",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "full_name",
+									"value": "Mehmet Salih Aslan",
+									"description": "max:255",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "aslanmsalih@gmail.com",
+									"description": "email|unique:users,email",
+									"type": "text"
+								}
+							],
+							"options": {
+								"formdata": {}
+							}
+						},
+						"url": {
+							"raw": "{{api_url}}users/me",
+							"host": [
+								"{{api_url}}users"
+							],
+							"path": [
+								"me"
 							]
 						}
 					},
@@ -218,9 +295,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{api_url}}note",
+							"raw": "{{api_url}}notes",
 							"host": [
-								"{{api_url}}note"
+								"{{api_url}}notes"
 							]
 						}
 					},
@@ -249,9 +326,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{api_url}}note/:note_id",
+							"raw": "{{api_url}}notes/:note_id",
 							"host": [
-								"{{api_url}}note"
+								"{{api_url}}notes"
 							],
 							"path": [
 								":note_id"
@@ -259,8 +336,7 @@
 							"variable": [
 								{
 									"key": "note_id",
-									"value": "1",
-									"type": "string"
+									"value": ""
 								}
 							]
 						}
@@ -303,9 +379,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{api_url}}note/:note_id",
+							"raw": "{{api_url}}notes/:note_id",
 							"host": [
-								"{{api_url}}note"
+								"{{api_url}}notes"
 							],
 							"path": [
 								":note_id"
@@ -347,9 +423,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{api_url}}note/: note_id",
+							"raw": "{{api_url}}notes/: note_id",
 							"host": [
-								"{{api_url}}note"
+								"{{api_url}}notes"
 							],
 							"path": [
 								": note_id"
