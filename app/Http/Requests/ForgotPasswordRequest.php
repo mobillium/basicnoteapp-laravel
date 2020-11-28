@@ -20,7 +20,7 @@ class ForgotPasswordRequest extends BaseApiRequest
     public function attributes()
     {
         return [
-            'email'    => __('app.user.email'),
+            'email' => __('app.user.email'),
         ];
     }
 }

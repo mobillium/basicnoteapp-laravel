@@ -23,7 +23,7 @@ class RegisterRequest extends BaseApiRequest
     {
         return [
             'full_name' => __('app.user.full_name'),
-            'email'    => __('app.user.email'),
+            'email' => __('app.user.email'),
             'password' => __('app.user.password'),
         ];
     }

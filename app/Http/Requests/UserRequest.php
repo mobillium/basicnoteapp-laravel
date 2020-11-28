@@ -15,7 +15,7 @@ class UserRequest extends BaseApiRequest
         $user = $this->user();
         return [
             'full_name' => 'max:255',
-            'email' => 'email|unique:users,email,'.$user->id,
+            'email' => 'email|unique:users,email,' . $user->id,
         ];
     }
 
@@ -23,7 +23,7 @@ class UserRequest extends BaseApiRequest
     {
         return [
             'full_name' => __('app.user.full_name'),
-            'email'    => __('app.user.email'),
+            'email' => __('app.user.email'),
         ];
     }
 }

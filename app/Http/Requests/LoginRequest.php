@@ -21,7 +21,7 @@ class LoginRequest extends BaseApiRequest
     public function attributes()
     {
         return [
-            'email'    => __('app.user.email'),
+            'email' => __('app.user.email'),
             'password' => __('app.user.password'),
         ];
     }

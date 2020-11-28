@@ -12,7 +12,8 @@ use Illuminate\Support\Facades\Hash;
 
 class UserController extends Controller
 {
-    function show(Request $request) {
+    function show(Request $request)
+    {
         $user = $request->user();
 
         if (!$user) {
@@ -22,7 +23,8 @@ class UserController extends Controller
         return response()->success($user);
     }
 
-    function update(UserRequest $request) {
+    function update(UserRequest $request)
+    {
         /** @var User $user */
         $user = $request->user();
         if ($fullName = $request->input('full_name')) {
@@ -35,7 +37,8 @@ class UserController extends Controller
         return response()->success($user);
     }
 
-    function updatePassword(UserPasswordRequest $request) {
+    function updatePassword(UserPasswordRequest $request)
+    {
         /** @var User $user */
         $user = $request->user();
         $password = $request->input('password');

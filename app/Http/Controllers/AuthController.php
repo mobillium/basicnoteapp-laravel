@@ -12,29 +12,33 @@ use Illuminate\Support\Facades\Hash;
 
 class AuthController extends Controller
 {
-    function register(RegisterRequest $request) {
+    function register(RegisterRequest $request)
+    {
         $user = User::query()->create($request->input());
         return response()->success($this->generateToken($user));
     }
 
-    function login(LoginRequest $request) {
+    function login(LoginRequest $request)
+    {
         $email = $request->input('email');
-        $user = User::where('email',$email)->first();
+        $user = User::where('email', $email)->first();
         if (!$user) {
             return response()->error(ErrorCode::AUTH_FAILED);
         }
         if (Hash::check($request->password, $user->password)) {
             return response()->success($this->generateToken($user));
-        }else{
+        } else {
             return response()->error(ErrorCode::AUTH_FAILED);
         }
     }
 
-    function forgotPassword(ForgotPasswordRequest $request) {
-        return  response()->success(null, SuccessCode::FORGOT_PASSWORD);
+    function forgotPassword(ForgotPasswordRequest $request)
+    {
+        return response()->success(null, SuccessCode::FORGOT_PASSWORD);
     }
 
-    private function generateToken(User $user) {
+    private function generateToken(User $user)
+    {
         $tokenResult = $user->createToken('Personal Access Token');
         $token = $tokenResult->token;
         $token->save();

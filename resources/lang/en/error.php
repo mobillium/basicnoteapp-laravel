@@ -1,7 +1,6 @@
 <?php
 
 return [
-
     'common' => [
         'error' => 'Error',
         'not-found' => 'Not found.',

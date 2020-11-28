@@ -21,7 +21,7 @@ class StoreNoteRequest extends BaseApiRequest
     public function attributes()
     {
         return [
-            'title'    => __('app.note.title'),
+            'title' => __('app.note.title'),
             'note' => __('app.note.note'),
         ];
     }
