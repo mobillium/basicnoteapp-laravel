@@ -27,6 +27,7 @@ Route::middleware(['auth:api'])->group(function () {
     // User
     Route::get('users/me', [UserController::class, 'show']);
     Route::put('users/me', [UserController::class, 'update']);
+    Route::put('users/me/password', [UserController::class, 'updatePassword']);
     Route::get('users/me/notes', [UserNotesController::class, 'index']);
 
     // Note

@@ -2,7 +2,7 @@
 
 namespace App\Http\Requests;
 
-class LoginRequest extends BaseApiRequest
+class UserPasswordRequest extends BaseApiRequest
 {
 
     /**
@@ -13,16 +13,16 @@ class LoginRequest extends BaseApiRequest
     public function rules()
     {
         return [
-            'email' => 'required|exists:users,email',
             'password' => 'required',
+            'new_password' => 'required|confirmed|min:6|max:255',
         ];
     }
 
     public function attributes()
     {
         return [
-            'email' => __('app.user.email'),
             'password' => __('app.user.password'),
+            'new_password' => __('app.user.password'),
         ];
     }
 }

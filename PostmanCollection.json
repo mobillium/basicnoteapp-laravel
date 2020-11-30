@@ -92,7 +92,7 @@
 								},
 								{
 									"key": "email",
-									"value": "aslanmsalih@gmail.com",
+									"value": "aslanmsalih23@gmail.com",
 									"description": "required|email|unique:users,email",
 									"type": "text"
 								},
@@ -207,7 +207,7 @@
 					"response": []
 				},
 				{
-					"name": "User Me",
+					"name": "User Update Me",
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -222,18 +222,16 @@
 						"method": "PUT",
 						"header": [],
 						"body": {
-							"mode": "formdata",
-							"formdata": [
+							"mode": "urlencoded",
+							"urlencoded": [
 								{
 									"key": "full_name",
-									"value": "Mehmet Salih Aslan",
-									"description": "max:255",
+									"value": "Mehmet Salih Aslann",
 									"type": "text"
 								},
 								{
 									"key": "email",
 									"value": "aslanmsalih@gmail.com",
-									"description": "email|unique:users,email",
 									"type": "text"
 								}
 							],
@@ -248,6 +246,57 @@
 							],
 							"path": [
 								"me"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update My Password",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "password",
+									"value": "password",
+									"type": "text"
+								},
+								{
+									"key": "new_password",
+									"value": "password.",
+									"type": "text"
+								},
+								{
+									"key": "new_password_confirmation",
+									"value": "password.",
+									"type": "text"
+								}
+							],
+							"options": {
+								"formdata": {}
+							}
+						},
+						"url": {
+							"raw": "{{api_url}}users/me/password",
+							"host": [
+								"{{api_url}}users"
+							],
+							"path": [
+								"me",
+								"password"
 							]
 						}
 					},

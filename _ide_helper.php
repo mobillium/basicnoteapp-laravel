@@ -10512,25 +10512,23 @@
          *
          * @param mixed $data
          * @param mixed $code
-         * @param mixed $message
          * @param mixed $status
          * @static 
          */ 
-        public static function success($data, $code = null, $message = null, $status = 200)
+        public static function success($data, $code = 'common.success', $status = 200)
         {
-                        return \Illuminate\Routing\ResponseFactory::success($data, $code, $message, $status);
+                        return \Illuminate\Routing\ResponseFactory::success($data, $code, $status);
         }
                     /**
          * 
          *
-         * @param mixed $message
          * @param mixed $code
          * @param mixed $status
          * @static 
          */ 
-        public static function error($message = null, $code = null, $status = 400)
+        public static function error($code = 'common.error', $status = 400)
         {
-                        return \Illuminate\Routing\ResponseFactory::error($message, $code, $status);
+                        return \Illuminate\Routing\ResponseFactory::error($code, $status);
         }
          
     }
@@ -14719,25 +14717,23 @@
          *
          * @param mixed $data
          * @param mixed $code
-         * @param mixed $message
          * @param mixed $status
          * @static 
          */ 
-        public static function success($data, $code = null, $message = null, $status = 200)
+        public static function success($data, $code = 'common.success', $status = 200)
         {
-                        return \Illuminate\Routing\ResponseFactory::success($data, $code, $message, $status);
+                        return \Illuminate\Routing\ResponseFactory::success($data, $code, $status);
         }
                     /**
          * 
          *
-         * @param mixed $message
          * @param mixed $code
          * @param mixed $status
          * @static 
          */ 
-        public static function error($message = null, $code = null, $status = 400)
+        public static function error($code = 'common.error', $status = 400)
         {
-                        return \Illuminate\Routing\ResponseFactory::error($message, $code, $status);
+                        return \Illuminate\Routing\ResponseFactory::error($code, $status);
         }
          
     }
